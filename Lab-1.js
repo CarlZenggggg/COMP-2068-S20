@@ -37,22 +37,22 @@ const people = [
     {
         name: "Carl",
         sex: "male",
-        dob: 1998-06-05
+        age: 23
     },
     {
         name: "Sylvia",
         sex: "female",
-        dob: 1998-02-05
+        age: 22
     },
     {
         name: "Daniel",
         sex: "male",
-        dob: 1997-06-23
+        age: 21
     },
     {
         name: "Ethan",
         sex: "male",
-        dob: 2000-08-23
+        age: 20
     }
 ];
 console.log(people);
