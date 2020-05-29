@@ -69,9 +69,11 @@ console.log(people);
 */
 
 
-// people.map((people) => {
-//   return people.length;
-// });
+const getPeople =(name, age) => {
+  console.log(`The person name is ${name}, and the person age is ${age} years old`);
+}
+const {name, age} = people[0];
+getPeople(name, age);
 
 
 
@@ -83,6 +85,7 @@ console.log(people);
     as an argument.
 */
 
-// let people = ["Carl", "Sylvia", "Daniel", "Ethan"];
-// for(let i = 0; i < people.length; i++)
-// { console.log(people[i]);}
+for(let person of people){
+  const greeting = person => console.log(person); 
+  greeting(person);
+}
