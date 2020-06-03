@@ -1,0 +1,22 @@
+{
+  "name": "my-first-app",
+  "version": "1.0.0",
+  "description": "lab2",
+  "main": "lab2-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlZenggggg/COMP-2068-S20.git"
+  },
+  "author": "Carl Zeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlZenggggg/COMP-2068-S20/issues"
+  },
+  "homepage": "https://github.com/CarlZenggggg/COMP-2068-S20#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
