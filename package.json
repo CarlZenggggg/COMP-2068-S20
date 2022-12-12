@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/CarlZenggggg/COMP-2068-S20#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
